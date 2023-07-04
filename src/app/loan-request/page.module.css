@@ -1,0 +1,74 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, .8);
+  min-height: 300px;
+  border-radius: 8px;
+  gap: 20px;
+}
+
+.loanListBackDiv{
+  width: 90%;
+  min-height: 300px;
+  margin: auto;
+  text-align: justify;
+}
+
+.loanListBackDiv .loanListDiv{
+  width: 29%;
+  margin: 10px 1%;
+  background: #FFF;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 5px;
+  text-align: left;
+  cursor: pointer;
+  transition:all ease 0.2s;
+	-webkit-transition:all ease 0.2s;
+	-ms-transition:all ease 0.2s;
+	-o-transition:all ease 0.2s;
+	-moz-transition:all ease 0.2s;
+
+}
+.loanListBackDiv .loanListDiv:hover{
+  box-shadow:0px 0px 10px 1px rgba(0,0,0,.1);
+}
+
+.loanListBackDiv .loanListDiv .loanListDivIn{
+  padding: 10px;
+ 
+}
+.loanListBackDiv .loanListDiv .loanListDivIn .loanId{
+  color: var(--primary-color) ;
+  font-size: 12px;
+}
+.loanListBackDiv .loanListDiv .loanListDivIn h2{
+  height: 25px;
+  overflow: hidden;
+  font-size: 18px;
+  font-family:sub-title-font;
+}
+.loanListBackDiv .loanListDiv .loanListDivIn .loanAmount{
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: #ccc 1px solid;
+  padding: 3px;
+}
+.loanListBackDiv .loanListDiv .loanListDivIn .loanAmount .btn{
+  font-size: 10px;
+  background: var(--secondary-color);
+  color: #FFF;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 3px;
+}
+
+
+
+
+
+

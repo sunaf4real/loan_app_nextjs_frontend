@@ -1,0 +1,30 @@
+.nav{
+    width: 100%;
+    min-height: 40px;
+    border-bottom: #ccc 1px solid;  
+}
+
+
+.nav .ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 96%;
+    margin: auto;
+}
+
+.nav .ul .li{
+    height: 40px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+   cursor:pointer;
+	transition:all ease 0.2s;
+	-webkit-transition:all ease 0.2s;
+	-ms-transition:all ease 0.2s;
+	-o-transition:all ease 0.2s;
+	-moz-transition:all ease 0.2s;
+}
+.nav .ul .li:hover{
+    color: #EB7F1F;
+}

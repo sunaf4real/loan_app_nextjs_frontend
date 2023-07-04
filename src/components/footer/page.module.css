@@ -1,0 +1,41 @@
+.footer{
+    min-height: 50px;
+    width: 100%;
+    font-size: 13px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #ccc;
+    border-top: #ccc 1px dashed;
+}
+
+.footer .media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.footer .media .iconDiv{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+  
+}
+.footer .media .iconDiv .icon{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .6;
+    cursor:pointer;
+	transition:all ease 0.2s;
+	-webkit-transition:all ease 0.2s;
+	-ms-transition:all ease 0.2s;
+	-o-transition:all ease 0.2s;
+	-moz-transition:all ease 0.2s;
+}
+.footer .media .iconDiv .icon:hover{
+    opacity: 1;
+}
